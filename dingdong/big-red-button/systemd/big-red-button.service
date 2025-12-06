@@ -1,0 +1,16 @@
+[Unit]
+Description=Big Red Button Web (Flask/Gunicorn)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/big-red-button
+Environment=DING_SCRIPT=/home/pi/dingdong.py
+Environment=COOLDOWN_SEC=1.5
+Environment=CMD_TIMEOUT=10
+ExecStart=/home/pi/big-red-button/.venv/bin/gunicorn -b 0.0.0.0:8000 app:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,4 @@
+flask
+gunicorn
+# Only needed if you use the example dingdong.py
+RPi.GPIO
