@@ -140,7 +140,7 @@ def start_keepalive_loop():
                 return
 
         while True:
-            time.sleep(480) # 8 minutes
+            time.sleep(10) # 8 minutes
             try:
                 # Use aplay (ALSA player) which is standard on Raspberry Pi
                 subprocess.run(["aplay", wav_path], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
