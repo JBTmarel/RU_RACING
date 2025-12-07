@@ -3,12 +3,8 @@ Description=Doorbell app.py startup service file
 After=network-online.target
 
 [Service]
-ExecStart=/home/arnarob23/RU_RACING/dingdong/big-red-button/venv/bin/python3 /home/arnarob23/RU_RACING/dingdong/big-red-button/start_service.sh
+ExecStart=/home/arnarob23/RU_RACING/dingdong/big-red-button/venv/bin/python3 /home/arnarob23/RU_RACING/dingdong/big-red-button/app.py
 WorkingDirectory=/home/arnarob23/RU_RACING/dingdong/big-red-button
-StandardOutput=inherit
-StandardError=inherit
-Restart=always
-User=arnarob23
 
 [Install]
 WantedBy=multi-user.target
