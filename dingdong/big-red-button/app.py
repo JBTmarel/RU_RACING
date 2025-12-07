@@ -3,6 +3,9 @@ import os
 import sys
 import time
 import pathlib
+import math
+import struct
+import wave
 import subprocess
 import threading
 from flask import Flask, request, jsonify, make_response
@@ -104,5 +107,49 @@ def ding():
     except Exception as e:
         return jsonify(ok=False, error=str(e)), 500
 
+def generate_keepalive_wav(filename="keepalive.wav"):
+    """Generates a 1-second, 20Hz sine wave at low amplitude."""
+    sample_rate = 44100
+    duration = 1.0
+    frequency = 20.0
+    amplitude = 4000  # Low amplitude (16-bit range is -32768 to 32767)
+    
+    n_samples = int(sample_rate * duration)
+    
+    with wave.open(filename, 'w') as wav_file:
+        wav_file.setnchannels(1)  # Mono
+        wav_file.setsampwidth(2)  # 2 bytes per sample (16-bit)
+        wav_file.setframerate(sample_rate)
+        
+        for i in range(n_samples):
+            value = int(amplitude * math.sin(2 * math.pi * frequency * i / sample_rate))
+            data = struct.pack('<h', value)
+            wav_file.writeframesraw(data)
+
+def start_keepalive_loop():
+    """Plays the keepalive sound every 8 minutes in a background thread."""
+    def loop():
+        wav_path = os.path.join(str(pathlib.Path(__file__).parent.absolute()), "keepalive.wav")
+        # Ensure the file exists
+        if not os.path.exists(wav_path):
+            try:
+                generate_keepalive_wav(wav_path)
+                print(f"Generated keepalive sound at {wav_path}")
+            except Exception as e:
+                print(f"Failed to generate keepalive wav: {e}")
+                return
+
+        while True:
+            time.sleep(480) # 8 minutes
+            try:
+                # Use aplay (ALSA player) which is standard on Raspberry Pi
+                subprocess.run(["aplay", wav_path], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            except Exception as e:
+                print(f"Error playing keepalive sound: {e}")
+
+    thread = threading.Thread(target=loop, daemon=True)
+    thread.start()
+
 if __name__ == "__main__":
+    start_keepalive_loop()
     app.run(host="0.0.0.0", port=8000)
