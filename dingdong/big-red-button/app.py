@@ -14,13 +14,14 @@ app = Flask(__name__)
 
 # --- Configuration ---
 # Path to your sound script. Change this if you want.
-DING_SCRIPT = os.environ.get("DING_SCRIPT", "/home/pi/dingdong.py")
+DING_SCRIPT = os.environ.get("DING_SCRIPT", "./dingdong.py")
 # Minimum seconds between presses (prevents rapid double-clicks)
 COOLDOWN_SEC = float(os.environ.get("COOLDOWN_SEC", "1.5"))
 # Command timeout in seconds (avoid hanging)
 CMD_TIMEOUT = float(os.environ.get("CMD_TIMEOUT", "10"))
 
 _lock = threading.Lock()
+_audio_lock = threading.Lock()
 _last_press = 0.0
 
 INDEX_HTML = """
@@ -98,7 +99,10 @@ def ding():
             cmd = [sys.executable, str(script_path)]
         else:
             cmd = [str(script_path)]
-        subprocess.run(cmd, cwd=str(script_path.parent), check=True, timeout=CMD_TIMEOUT)
+        
+        with _audio_lock:
+            subprocess.run(cmd, cwd=str(script_path.parent), check=True, timeout=CMD_TIMEOUT)
+        
         return jsonify(ok=True)
     except subprocess.TimeoutExpired:
         return jsonify(ok=False, error=f"Script timed out after {CMD_TIMEOUT}s"), 504
@@ -138,12 +142,17 @@ def start_keepalive_loop():
             except Exception as e:
                 print(f"Failed to generate keepalive wav: {e}")
                 return
-
+        sleepTime = 10
         while True:
-            time.sleep(10) # 8 minutes
+            time.sleep(sleepTime-3)
+            for i in range(3):
+                print("Keepalive sound playing in", sleepTime-i, "seconds")
+                time.sleep(1)
             try:
                 # Use aplay (ALSA player) which is standard on Raspberry Pi
-                subprocess.run(["aplay", wav_path], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                with _audio_lock:
+                    subprocess.run(["aplay", wav_path], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                print("Keepalive sound played")
             except Exception as e:
                 print(f"Error playing keepalive sound: {e}")
 

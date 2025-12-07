@@ -17,3 +17,8 @@
 #     p.stop()
 #     GPIO.cleanup()
 
+import pygame
+
+pygame.mixer.init()
+pygame.mixer.music.load("dingdong.wav")
+pygame.mixer.music.play()
