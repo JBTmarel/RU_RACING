@@ -143,10 +143,11 @@ def start_keepalive_loop():
                 print(f"Failed to generate keepalive wav: {e}")
                 return
         sleepTime = 10
+        countdown = 3
         while True:
-            time.sleep(sleepTime-3)
-            for i in range(3):
-                print("Keepalive sound playing in", sleepTime-i, "seconds")
+            time.sleep(sleepTime-countdown)
+            for i in range(countdown):
+                print("Keepalive sound playing in", i, "seconds")
                 time.sleep(1)
             try:
                 # Use aplay (ALSA player) which is standard on Raspberry Pi
