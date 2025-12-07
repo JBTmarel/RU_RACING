@@ -147,8 +147,8 @@ def start_keepalive_loop():
         while True:
             time.sleep(sleepTime-countdown)
             for i in range(countdown):
-                print("Keepalive sound playing in", i, "seconds")
                 time.sleep(1)
+                print("Keepalive sound playing in", countdown-i, "seconds")
             try:
                 # Use aplay (ALSA player) which is standard on Raspberry Pi
                 with _audio_lock:
