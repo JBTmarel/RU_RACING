@@ -17,5 +17,12 @@
 #     p.stop()
 #     GPIO.cleanup()
 
-import playsound
-playsound.playsound("dingdong.wav", block=True)
+import subprocess
+import os
+import sys
+
+# Get the directory of the current script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+wav_path = os.path.join(script_dir, "dingdong.wav")
+
+subprocess.run(["aplay", wav_path])
