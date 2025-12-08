@@ -30,8 +30,9 @@ wav_path = os.path.join(script_dir, "dingdong.wav")
 # ffmpeg -i dingdong.wav -acodec pcm_s16le dingdong_fixed.wav
 try:
     subprocess.run(["paplay", wav_path], check=True)
-except FileNotFoundError:
-    # Fallback or error if paplay is not installed
-    print("Error: 'paplay' not found. Try installing PulseAudio or converting the WAV to PCM.")
+except (FileNotFoundError, subprocess.CalledProcessError) as e:
+    # Fallback or error if paplay is not installed or fails (e.g. systemd no audio session)
+    print(f"Warning: 'paplay' failed ({e}). Falling back to 'aplay'.")
     # Fallback to aplay just in case
+    # Note: aplay usually works better for system services (ALSA directly)
     subprocess.run(["aplay", wav_path])
