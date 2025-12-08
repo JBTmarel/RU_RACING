@@ -17,22 +17,5 @@
 #     p.stop()
 #     GPIO.cleanup()
 
-import subprocess
 import os
-import sys
-
-# Get the directory of the current script
-script_dir = os.path.dirname(os.path.abspath(__file__))
-wav_path = os.path.join(script_dir, "dingdong.wav")
-
-# Try using paplay (PulseAudio) which handles more formats (like ADPCM) than aplay
-# If paplay is missing, you might need to convert the wav to PCM:
-# ffmpeg -i dingdong.wav -acodec pcm_s16le dingdong_fixed.wav
-try:
-    subprocess.run(["paplay", wav_path], check=True)
-except (FileNotFoundError, subprocess.CalledProcessError) as e:
-    # Fallback or error if paplay is not installed or fails (e.g. systemd no audio session)
-    print(f"Warning: 'paplay' failed ({e}). Falling back to 'aplay'.")
-    # Fallback to aplay just in case
-    # Note: aplay usually works better for system services (ALSA directly)
-    subprocess.run(["aplay", wav_path])
+os.system('mpg321 dingdong.mp3')
