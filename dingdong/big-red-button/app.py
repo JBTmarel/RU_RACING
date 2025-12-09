@@ -45,7 +45,7 @@ INDEX_HTML = """
 
   <!-- Favicon (browser tab icon) -->
   <link rel="icon"
-        href="{{ url_for('static', filename='icons/icon-192.png') }}"
+        href="{{ url_for('static', filename='icons/app_icon.png') }}"
         type="image/png">
 
   <!-- PWA manifest (used by Android/Chrome for Add to Home Screen) -->
@@ -54,7 +54,7 @@ INDEX_HTML = """
 
   <!-- iOS home screen icon (Safari ignores the manifest for icons) -->
   <link rel="apple-touch-icon"
-        href="{{ url_for('static', filename='icons/apple-touch-icon.png') }}">
+        href="{{ url_for('static', filename='icons/app_icon.png') }}">
 
   <!-- Android status bar color when launched from home screen -->
   <meta name="theme-color" content="#000000">
