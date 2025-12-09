@@ -26,6 +26,16 @@ _last_press = 0.0
 
 INDEX_HTML = open("templates/index.html").read()
 
+@app.route("/apple-touch-icon.png")
+@app.route("/apple-touch-icon-precomposed.png")
+def apple_touch_icon():
+    return send_from_directory("static/icons", "apple-touch-icon.png")
+
+@app.route("/favicon.ico")
+def favicon():
+    return send_from_directory("static/icons", "icon-192.png")
+
+
 @app.get("/")
 def index():
     # resp = make_response(INDEX_HTML)
