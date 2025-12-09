@@ -1,6 +1,6 @@
 [Unit]
 Description=Doorbell app.py startup service file
-After=network-online.target
+After=connect_speaker.service
 
 [Service]
 ExecStart=/home/arnarob23/RU_RACING/dingdong/big-red-button/venv/bin/python3 /home/arnarob23/RU_RACING/dingdong/big-red-button/app.py
