@@ -20,8 +20,9 @@
 import os
 import random
 
-# dingnr = random.randint(0, 1)
+dingnr = random.randint(0, 9)
 
-
-
-os.system('mpg321 letmein.mp3')
+if dingnr == 0:
+    os.system('mpg321 letmein.mp3')
+else:
+    os.system('mpg321 dingdong.mp3')
