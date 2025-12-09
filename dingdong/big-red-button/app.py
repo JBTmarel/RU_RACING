@@ -30,7 +30,7 @@ INDEX_HTML = """
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Big Red Button</title>
+  <title>RU Racing Doorbell</title>
   <style>
     :root { --bg:#0b0b0b; --red:#e11; --red-dark:#a00; }
     html, body { height:100%; margin:0; background:var(--bg); color:#fff; }
@@ -41,6 +41,25 @@ INDEX_HTML = """
     #btn:disabled { filter: grayscale(0.2) brightness(0.85); cursor:not-allowed; }
     .status { position:fixed; bottom:16px; left:0; right:0; text-align:center; opacity:0.9; font-size:clamp(12px, 2.5vw, 16px); }
   </style>
+  <meta charset="utf-8">
+
+  <!-- Favicon (browser tab icon) -->
+  <link rel="icon"
+        href="{{ url_for('static', filename='icons/icon-192.png') }}"
+        type="image/png">
+
+  <!-- PWA manifest (used by Android/Chrome for Add to Home Screen) -->
+  <link rel="manifest"
+        href="{{ url_for('static', filename='manifest.webmanifest') }}">
+
+  <!-- iOS home screen icon (Safari ignores the manifest for icons) -->
+  <link rel="apple-touch-icon"
+        href="{{ url_for('static', filename='icons/apple-touch-icon.png') }}">
+
+  <!-- Android status bar color when launched from home screen -->
+  <meta name="theme-color" content="#000000">
+
+  <title>RU Racing Button</title>
 </head>
 <body>
   <div class="wrap">
