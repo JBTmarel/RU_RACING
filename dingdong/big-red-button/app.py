@@ -8,6 +8,7 @@ import struct
 import wave
 import subprocess
 import threading
+from datetime import datetime
 from flask import Flask, request, jsonify, make_response, render_template, send_from_directory
 
 app = Flask(__name__)
@@ -116,7 +117,9 @@ def start_keepalive_loop():
                 # Use aplay (ALSA player) which is standard on Raspberry Pi
                 with _audio_lock:
                     subprocess.run(["aplay", wav_path], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-                print("Keepalive sound played")
+                    now = datetime.now()
+                    now_f = now.strftime("[%H:%M:%S]")
+                    print(now_f, "Keepalive sound played")
             except Exception as e:
                 print(f"Error playing keepalive sound: {e}")
 
