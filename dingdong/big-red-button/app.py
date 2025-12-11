@@ -8,8 +8,9 @@ import struct
 import wave
 import subprocess
 import threading
-from datetime import datetime
+from datetime import datetime, timedelta
 from flask import Flask, request, jsonify, make_response, render_template, send_from_directory
+from flask import abort, Response, redirect, url_for, session
 
 app = Flask(__name__)
 
@@ -26,6 +27,21 @@ _audio_lock = threading.Lock()
 _last_press = 0.0
 
 INDEX_HTML = open("templates/index.html").read()
+
+# Needed for sessions (password login)
+app.secret_key = os.environ.get("FLASK_SECRET_KEY", "123")
+
+# Only these IPs may even see the admin page
+ALLOWED_LOG_IPS = {
+    "10.100.33.247",
+    "10.100.8.141"
+}
+
+# Password required on allowed IPs
+LOG_PASSWORD = os.environ.get("LOG_PASSWORD", "123")
+
+# In-memory IP block list: ip -> datetime (UTC) until which it’s blocked
+BLOCKED_IPS = {}
 
 @app.route("/apple-touch-icon.png")
 @app.route("/apple-touch-icon-precomposed.png")
@@ -45,8 +61,114 @@ def index():
     # return resp
     return render_template("index.html")
 
+def client_ip():
+    return request.remote_addr or "unknown"
+
+@app.route("/admin/logs", methods=["GET", "POST"])
+def admin_logs():
+    ip = client_ip()
+
+    # 1) IP allowlist: others get 404
+    if ip not in ALLOWED_LOG_IPS:
+        abort(404)
+
+    # 2) Password gate using session
+    if not session.get("logs_authenticated"):
+        if request.method == "POST" and request.form.get("password"):
+            if request.form["password"] == LOG_PASSWORD:
+                session["logs_authenticated"] = True
+                return redirect(url_for("admin_logs"))
+        # show login form
+        return """
+        <html><body>
+          <h1>Admin Login</h1>
+          <p>Your IP: %s</p>
+          <form method="post">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit">Login</button>
+          </form>
+        </body></html>
+        """ % escape(ip)
+
+    # 3) Already authenticated: maybe block an IP
+    message = ""
+    if request.method == "POST" and request.form.get("action") == "block":
+        target_ip = (request.form.get("ip") or "").strip()
+        try:
+            minutes = int(request.form.get("minutes") or "0")
+        except ValueError:
+            minutes = 0
+
+        if target_ip and minutes > 0:
+            BLOCKED_IPS[target_ip] = datetime.utcnow() + timedelta(minutes=minutes)
+            message = f"Blocked {target_ip} for {minutes} minute(s)."
+        else:
+            message = "Invalid IP or minutes."
+
+    # 4) Read log file
+    try:
+        with open("app.log", "r") as f:
+            data = f.read()
+    except FileNotFoundError:
+        data = "No log file yet."
+
+    max_chars = 8000
+    if len(data) > max_chars:
+        data = "...(truncated)...\n" + data[-max_chars:]
+
+    # 5) Build HTML for current blocks
+    now = datetime.utcnow()
+    blocked_list_items = []
+    for bip, until in list(BLOCKED_IPS.items()):
+        if now >= until:
+            # expired: clean up
+            del BLOCKED_IPS[bip]
+            continue
+        mins_left = int((until - now).total_seconds() // 60) + 1
+        blocked_list_items.append(f"<li>{escape(bip)} - {mins_left} min left</li>")
+
+    blocked_html = "<ul>" + "".join(blocked_list_items) + "</ul>" if blocked_list_items else "<p>None.</p>"
+
+    page = f"""
+    <html><body>
+      <h1>Admin Logs</h1>
+      <p>Your IP: {escape(ip)}</p>
+      <p style="color: green;">{escape(message)}</p>
+
+      <h2>Block IP from using the button</h2>
+      <form method="post">
+        <input type="hidden" name="action" value="block">
+        <label>IP:
+          <input name="ip" placeholder="10.100.8.123">
+        </label>
+        <label>Minutes:
+          <input name="minutes" type="number" min="1" max="1440" value="5">
+        </label>
+        <button type="submit">Block</button>
+      </form>
+
+      <h3>Currently blocked IPs</h3>
+      {blocked_html}
+
+      <h2>Log output</h2>
+      <pre>{escape(data)}</pre>
+    </body></html>
+    """
+    return Response(page, mimetype="text/html")
+
+
 @app.post("/ding")
 def ding():
+
+    ip = client_ip()
+    now = datetime.utcnow()
+
+    until = BLOCKED_IPS.get(ip)
+    if until and now < until:
+        remaining_sec = (until - now).total_seconds()
+        remaining_min = int(remaining_sec // 60) + 1
+        return f"Your IP is blocked from using this button for {remaining_min} more minute(s).", 403
+
     global _last_press
     with _lock:
         now = time.monotonic()
