@@ -11,6 +11,7 @@ import threading
 from datetime import datetime, timedelta
 from flask import Flask, request, jsonify, make_response, render_template, send_from_directory
 from flask import abort, Response, redirect, url_for, session
+from markupsafe import escape
 
 app = Flask(__name__)
 
