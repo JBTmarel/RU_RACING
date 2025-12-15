@@ -44,6 +44,10 @@ LOG_PASSWORD = os.environ.get("LOG_PASSWORD", "123")
 # In-memory IP block list: ip -> datetime (UTC) until which it’s blocked
 BLOCKED_IPS = {}
 
+KNOWN_IPS = {
+    
+}
+
 @app.route("/apple-touch-icon.png")
 @app.route("/apple-touch-icon-precomposed.png")
 def apple_touch_icon():
@@ -65,6 +69,7 @@ def index():
 def client_ip():
     return request.remote_addr or "unknown"
 
+@app.route("/admin/logs", methods=["GET", "POST"])
 @app.route("/admin/logs", methods=["GET", "POST"])
 def admin_logs():
     ip = client_ip()
@@ -91,20 +96,31 @@ def admin_logs():
         </body></html>
         """ % escape(ip)
 
-    # 3) Already authenticated: maybe block an IP
     message = ""
-    if request.method == "POST" and request.form.get("action") == "block":
-        target_ip = (request.form.get("ip") or "").strip()
-        try:
-            minutes = int(request.form.get("minutes") or "0")
-        except ValueError:
-            minutes = 0
 
-        if target_ip and minutes > 0:
-            BLOCKED_IPS[target_ip] = datetime.utcnow() + timedelta(minutes=minutes)
-            message = f"Blocked {target_ip} for {minutes} minute(s)."
-        else:
-            message = "Invalid IP or minutes."
+    # 3) Handle POST actions (block IP, set name, etc.)
+    if request.method == "POST":
+        action = request.form.get("action", "")
+        if action == "block":
+            target_ip = (request.form.get("ip") or "").strip()
+            try:
+                minutes = int(request.form.get("minutes") or "0")
+            except ValueError:
+                minutes = 0
+
+            if target_ip and minutes > 0:
+                BLOCKED_IPS[target_ip] = datetime.utcnow() + timedelta(minutes=minutes)
+                message = f"Blocked {target_ip} for {minutes} minute(s)."
+            else:
+                message = "Invalid IP or minutes."
+        elif action == "set_name":
+            target_ip = (request.form.get("ip") or "").strip()
+            name = (request.form.get("name") or "").strip()
+            if target_ip and name:
+                KNOWN_IPS[target_ip] = name
+                message = f"Saved name '{name}' for {target_ip}."
+            else:
+                message = "Need both IP and name."
 
     # 4) Read log file
     try:
@@ -126,15 +142,57 @@ def admin_logs():
             del BLOCKED_IPS[bip]
             continue
         mins_left = int((until - now).total_seconds() // 60) + 1
-        blocked_list_items.append(f"<li>{escape(bip)} - {mins_left} min left</li>")
+
+        display_name = KNOWN_IPS.get(bip)
+        if display_name:
+            label = f"{escape(display_name)} ({escape(bip)})"
+        else:
+            label = escape(bip)
+
+        blocked_list_items.append(f"<li>{label} - {mins_left} min left</li>")
 
     blocked_html = "<ul>" + "".join(blocked_list_items) + "</ul>" if blocked_list_items else "<p>None.</p>"
+
+    # 6) Build HTML for known IPs
+    known_list_items = []
+    for kip, name in KNOWN_IPS.items():
+        note = " (you)" if kip == ip else ""
+        allowed_tag = "allowed" if kip in ALLOWED_LOG_IPS else "not in ALLOWED_LOG_IPS"
+        known_list_items.append(
+            f"<li>{escape(name)} - {escape(kip)}{escape(note)} [{escape(allowed_tag)}]</li>"
+        )
+
+    known_html = "<ul>" + "".join(known_list_items) + "</ul>" if known_list_items else "<p>None saved yet.</p>"
+
+    # Show your IP + name if known
+    your_name = KNOWN_IPS.get(ip)
+    if your_name:
+        your_name_html = f" ({escape(your_name)})"
+    else:
+        your_name_html = ""
 
     page = f"""
     <html><body>
       <h1>Admin Logs</h1>
-      <p>Your IP: {escape(ip)}</p>
+      <p>Your IP: {escape(ip)}{your_name_html}</p>
       <p style="color: green;">{escape(message)}</p>
+
+      <h2>Known IPs</h2>
+      {known_html}
+
+      <h3>Add / update name</h3>
+      <form method="post">
+        <input type="hidden" name="action" value="set_name">
+        <label>IP:
+          <input name="ip" placeholder="10.100.8.141">
+        </label>
+        <label>Name:
+          <input name="name" placeholder="Arnar's laptop">
+        </label>
+        <button type="submit">Save</button>
+      </form>
+
+      <hr>
 
       <h2>Block IP from using the button</h2>
       <form method="post">
@@ -156,6 +214,7 @@ def admin_logs():
     </body></html>
     """
     return Response(page, mimetype="text/html")
+
 
 
 @app.post("/ding")
