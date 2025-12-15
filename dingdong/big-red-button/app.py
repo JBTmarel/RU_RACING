@@ -15,6 +15,8 @@ from markupsafe import escape
 
 app = Flask(__name__)
 
+TEST_SOUND_FILE = os.path.join(os.path.dirname(__file__), "test_sound.mp3")
+
 # --- Configuration ---
 # Path to your sound script. Change this if you want.
 DING_SCRIPT = os.environ.get("DING_SCRIPT", "./dingdong.py")
@@ -63,6 +65,7 @@ def client_ip():
 @app.route("/admin/logs", methods=["GET", "POST"])
 @app.route("/admin/logs", methods=["GET", "POST"])
 @app.route("/admin/logs", methods=["GET", "POST"])
+@app.route("/admin/logs", methods=["GET", "POST"])
 def admin_logs():
     ip = client_ip()
     message = ""
@@ -89,7 +92,7 @@ def admin_logs():
         </body></html>
         """
 
-    # 2) Already authenticated: handle actions (block IP)
+    # 2) Already authenticated: handle actions (block IP, test sound)
     if request.method == "POST":
         action = request.form.get("action", "")
         if action == "block":
@@ -104,6 +107,20 @@ def admin_logs():
                 message = f"Blocked {target_ip} for {minutes} minute(s)."
             else:
                 message = "Invalid IP or minutes."
+
+        elif action == "test_sound":
+        # Play a test sound with mpg321 to check the speaker
+            if os.path.exists(TEST_SOUND_FILE):
+                try:
+                    # -q = quiet console output
+                    # & at the end so Flask isn't blocked while playing
+                    os.system(f"mpg321 -q '{TEST_SOUND_FILE}' &")
+                    message = "Test sound triggered."
+                except Exception as e:
+                    message = f"Error playing test sound: {e}"
+            else:
+                message = "Test sound file not found on the Pi."
+
 
     # 3) Read log file
     try:
@@ -135,6 +152,14 @@ def admin_logs():
       <p>Your IP: {escape(ip)}</p>
       <p style="color: green;">{escape(message)}</p>
 
+      <h2>Speaker test</h2>
+      <form method="post">
+        <input type="hidden" name="action" value="test_sound">
+        <button type="submit">Play test sound</button>
+      </form>
+
+      <hr>
+
       <h2>Block IP from using the button</h2>
       <form method="post">
         <input type="hidden" name="action" value="block">
@@ -155,7 +180,6 @@ def admin_logs():
     </body></html>
     """
     return Response(page, mimetype="text/html")
-
 
 
 @app.post("/ding")
