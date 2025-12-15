@@ -34,8 +34,7 @@ app.secret_key = os.environ.get("FLASK_SECRET_KEY", "123")
 
 # Only these IPs may even see the admin page
 ALLOWED_LOG_IPS = {
-    "10.100.33.247",
-    "10.100.8.141"
+    "10.100.25.40"
 }
 
 # Password required on allowed IPs
