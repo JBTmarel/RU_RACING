@@ -243,6 +243,7 @@ def generate_keepalive_wav(filename="keepalive.wav"):
 
 def start_keepalive_loop():
     """Plays the keepalive sound every 8 minutes in a background thread."""
+    print("got into keepalive loop")
     def loop():
         wav_path = os.path.join(str(pathlib.Path(__file__).parent.absolute()), "keepalive.wav")
         # Ensure the file exists
