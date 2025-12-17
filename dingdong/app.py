@@ -260,6 +260,7 @@ def start_keepalive_loop():
         while True:
             print("Got into while loop")
             time.sleep(sleepTime)#-countdown)
+            print("Sleep done")
 #            for i in range(countdown):
 #                time.sleep(1)
 #                print("Keepalive sound playing in", countdown-i, "seconds")
@@ -273,6 +274,7 @@ def start_keepalive_loop():
                     print(now_f, "Keepalive sound played")
             except Exception as e:
                 print(f"Error playing keepalive sound: {e}")
+            print("try and except done")
 
     thread = threading.Thread(target=loop, daemon=True)
     thread.start()
