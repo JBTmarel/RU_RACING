@@ -1,0 +1,2694 @@
+nohup: ignoring input
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+10.100.33.247 - - [10/Dec/2025 22:16:47] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [10/Dec/2025 22:19:10] "[33mGET /ksjhdfksjdhf HTTP/1.1[0m" 404 -
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:18:40] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:20:43] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:22:45] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:24:48] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:26:49] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:28:51] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:30:52] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:32:55] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:34:59] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:37:00] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:39:02] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:41:05] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:43:08] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:45:09] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:47:11] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:49:12] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:51:15] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:53:18] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:55:20] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:57:22] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[22:59:24] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:01:26] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:03:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:05:29] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:07:31] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:09:33] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:11:35] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:13:36] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:15:38] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:17:40] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:19:42] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:21:44] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:23:45] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:25:47] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:27:49] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:29:50] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:31:52] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:33:54] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:35:56] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:37:57] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:39:59] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:42:00] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:44:03] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:46:04] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:48:06] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:50:07] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:52:09] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:54:10] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:56:12] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[23:58:14] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:00:16] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:02:18] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:04:19] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:06:22] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:08:24] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:10:26] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 secondsHigh Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Playing MPEG stream from dingdong.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:04] Decoding of dingdong.mp3 finished.
+10.100.33.247 - - [11/Dec/2025 00:23:11] "POST /ding HTTP/1.1" 200 -
+10.100.11.137 - - [11/Dec/2025 00:51:35] "GET / HTTP/1.1" 200 -
+10.100.11.137 - - [11/Dec/2025 00:51:35] "[36mGET /static/manifest.webmanifest HTTP/1.1[0m" 304 -
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Playing MPEG stream from dingdong.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:04] Decoding of dingdong.mp3 finished.
+10.100.11.137 - - [11/Dec/2025 00:51:41] "POST /ding HTTP/1.1" 200 -
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Playing MPEG stream from dingdong.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:04] Decoding of dingdong.mp3 finished.
+10.100.11.137 - - [11/Dec/2025 00:51:49] "POST /ding HTTP/1.1" 200 -
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Playing MPEG stream from dingdong.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:04] Decoding of dingdong.mp3 finished.
+10.100.11.137 - - [11/Dec/2025 00:51:56] "POST /ding HTTP/1.1" 200 -
+
+Keepalive sound playing in 1 seconds
+[00:12:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:14:29] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:16:31] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:18:32] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:20:35] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:22:37] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:24:39] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:26:41] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:28:43] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:30:44] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:32:48] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:34:50] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:36:51] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:38:53] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:40:55] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:42:57] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:44:59] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:47:01] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:49:03] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:51:05] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:53:07] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:55:09] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:57:11] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[00:59:13] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:01:15] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:03:16] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:05:18] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:07:19] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:09:21] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:11:23] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:13:24] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:15:26] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:17:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:19:29] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:21:32] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:23:34] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:25:35] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:27:37] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:29:38] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:31:40] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:33:42] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:35:47] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:37:49] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:39:50] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:41:52] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:43:54] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:45:56] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:47:58] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:50:00] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:52:02] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:54:03] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:56:05] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[01:58:06] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:00:08] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:02:10] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:04:11] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:06:13] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:08:15] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:10:17] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:12:18] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:14:20] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:16:22] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:18:24] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:20:25] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:22:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:24:28] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:26:30] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:28:32] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:30:34] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:32:35] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:34:37] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:36:39] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:38:41] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:40:44] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:42:46] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:44:49] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:46:51] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:48:55] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:50:58] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:53:01] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:55:02] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:57:04] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[02:59:05] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:01:07] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:03:08] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:05:10] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:07:12] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:09:13] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:11:15] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:13:17] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:15:20] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:17:22] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:19:23] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:21:25] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:23:26] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:25:29] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:27:31] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:29:34] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:31:36] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:33:40] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:35:43] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:37:45] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:39:47] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:41:49] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:43:51] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:45:53] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:47:54] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:49:57] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:52:00] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:54:01] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:56:03] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[03:58:04] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:00:06] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:02:08] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:04:09] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:06:11] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:08:12] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:10:14] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:12:16] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:14:18] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:16:20] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:18:22] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:20:23] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:22:25] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:24:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:26:29] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:28:31] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:30:33] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:32:35] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:34:37] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:36:39] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:38:40] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:40:43] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:42:44] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:44:47] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:46:49] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:48:50] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:50:53] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:52:55] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:54:58] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:57:00] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[04:59:02] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:01:03] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:03:07] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:05:08] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:07:12] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:09:14] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:11:15] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:13:18] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:15:20] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:17:21] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:19:23] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:21:25] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:23:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:25:28] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:27:30] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:29:32] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:31:34] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:33:36] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:35:38] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:37:41] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:39:42] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:41:44] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:43:46] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:45:48] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:47:49] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:49:51] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:51:52] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:53:54] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:55:56] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[05:57:58] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:00:00] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:02:02] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:04:03] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:06:05] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:08:06] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:10:08] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:12:09] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:14:11] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:16:13] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:18:14] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:20:16] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:22:19] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:24:20] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:26:22] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:28:23] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:30:28] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:32:30] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:34:32] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:36:34] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:38:36] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:40:37] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:42:39] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:44:40] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:46:42] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:48:43] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:50:47] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:52:50] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:54:52] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:56:54] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[06:58:55] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:00:59] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:03:00] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:05:03] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:07:05] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:09:06] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:11:08] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:13:09] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:15:11] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:17:13] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:19:14] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:21:16] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:23:17] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:25:19] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:27:21] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:29:24] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:31:25] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:33:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:35:28] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:37:30] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:39:39] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:41:42] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:43:44] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:45:47] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:47:49] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:49:51] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:51:53] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:53:55] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:55:57] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[07:57:59] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:00:00] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:02:02] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:04:04] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:06:06] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:08:07] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:10:09] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:12:11] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:14:14] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:16:15] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:18:17] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:20:19] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:22:20] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:24:22] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:26:23] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:28:26] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:30:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:32:30] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:34:32] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:36:34] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:38:36] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:40:38] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:42:40] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:44:42] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:46:44] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:48:46] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:50:49] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:52:50] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:54:52] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:56:54] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[08:58:56] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:00:57] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:02:59] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:05:01] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:07:03] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:09:05] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:11:07] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:13:10] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:15:12] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:17:13] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:19:16] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:21:17] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:23:19] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:25:20] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:27:22] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:29:23] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:31:25] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:33:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:35:28] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:37:30] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:39:31] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:41:34] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:43:36] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:45:38] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:47:39] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:49:41] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:51:43] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:53:45] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:55:46] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:57:50] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[09:59:52] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:01:53] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:03:55] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:05:57] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:08:00] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:10:01] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:12:03] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:14:05] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:16:07] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:18:08] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:20:10] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:22:12] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:24:14] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:26:15] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:28:17] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:30:18] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:32:21] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:34:23] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:36:25] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:38:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:40:29] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:42:31] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:44:32] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:46:34] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:48:35] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:50:37] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:52:39] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:54:40] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:56:42] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[10:58:44] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:00:46] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:02:48] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:04:50] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:06:52] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:08:53] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:10:55] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:12:56] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:14:58] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:17:00] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:19:01] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:21:03] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:23:05] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:25:07] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:27:08] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:29:10] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:31:12] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:33:14] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:35:17] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:37:19] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:39:21] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds10.100.33.52 - - [11/Dec/2025 12:06:46] "GET / HTTP/1.1" 200 -
+10.100.33.52 - - [11/Dec/2025 12:06:46] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+10.100.33.52 - - [11/Dec/2025 12:06:46] "[36mGET /static/icons/apple-touch-icon.png HTTP/1.1[0m" 304 -
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Playing MPEG stream from letmein.mp3 ...
+MPEG 1.0 layer III, 192 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:02] Decoding of letmein.mp3 finished.
+10.100.33.52 - - [11/Dec/2025 12:06:50] "POST /ding HTTP/1.1" 200 -
+
+Keepalive sound playing in 1 seconds
+[11:41:22] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:43:24] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:45:26] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:47:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:49:29] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:51:31] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:53:33] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:55:34] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:57:36] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[11:59:37] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:01:40] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:03:41] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:05:43] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:07:44] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:09:46] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:11:48] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:13:50] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:15:52] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:17:53] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:19:55] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:21:56] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:23:58] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:25:59] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:28:02] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:30:03] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:32:05] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:34:06] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:36:08] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:38:09] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:40:11] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:42:12] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:44:14] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:46:16] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:48:18] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:50:20] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:52:21] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:54:24] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:56:26] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[12:58:27] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:00:29] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:02:30] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:04:32] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:06:35] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:08:37] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:10:38] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:12:40] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:14:42] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:16:43] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:18:45] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:20:48] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:22:49] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:24:51] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:26:53] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:28:55] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:30:58] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:33:00] Keepalive sound played
+Keepalive sound playing in 3 seconds
+Keepalive sound playing in 2 seconds
+Keepalive sound playing in 1 seconds
+[13:35:02] Keepalive sound played
+10.100.13.156 - - [11/Dec/2025 14:39:50] "GET / HTTP/1.1" 200 -
+10.100.13.156 - - [11/Dec/2025 14:39:50] "GET /static/manifest.webmanifest HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:26] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:34] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:35] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:35] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:36] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:37] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:37] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:38] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:38] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:39] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:39] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:40] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:40] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:40] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:41] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:41] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:42] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:42] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:42] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:42] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:43] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:43] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:44] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:44] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:44] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:44] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:45] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:45] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:45] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:46] "GET / HTTP/1.1" 200 -
+10.100.33.247 - - [11/Dec/2025 15:18:46] "GET / HTTP/1.1" 200 -
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Playing MPEG stream from dingdong.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:04] Decoding of dingdong.mp3 finished.
+10.100.33.247 - - [11/Dec/2025 15:19:44] "POST /ding HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+/home/arnarob23/RU_RACING/dingdong/big-red-button/app.py:120: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [15/Dec/2025 16:23:02] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:23:12] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:23:24] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:23:25] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:23:25] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:23:26] "GET /admin/logs HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+/home/arnarob23/RU_RACING/dingdong/big-red-button/app.py:120: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [15/Dec/2025 16:24:08] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:10] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:11] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:11] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:12] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:23] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:24] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:24] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:25] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:25] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:25] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:26] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:50] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:50] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:51] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:24:51] "GET /admin/logs HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+/home/arnarob23/RU_RACING/dingdong/big-red-button/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [15/Dec/2025 16:31:38] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [15/Dec/2025 16:31:41] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+/home/arnarob23/RU_RACING/dingdong/big-red-button/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [15/Dec/2025 18:34:51] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+10.100.25.40 - - [15/Dec/2025 18:34:59] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+/home/arnarob23/RU_RACING/dingdong/big-red-button/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [15/Dec/2025 19:46:41] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+[18:36:43] Keepalive sound played
+[18:38:45] Keepalive sound played
+[18:40:46] Keepalive sound played
+[18:42:48] Keepalive sound played
+[18:44:49] Keepalive sound played
+[18:46:51] Keepalive sound played
+[18:48:52] Keepalive sound played
+[18:50:54] Keepalive sound played
+[18:52:56] Keepalive sound played
+[18:54:58] Keepalive sound played
+[18:57:00] Keepalive sound played
+[18:59:04] Keepalive sound played
+[19:01:05] Keepalive sound played
+[19:03:07] Keepalive sound played
+[19:05:08] Keepalive sound played
+[19:07:10] Keepalive sound played
+[19:09:12] Keepalive sound played
+[19:11:13] Keepalive sound played
+[19:13:19] Keepalive sound played
+[19:15:25] Keepalive sound played
+[19:17:27] Keepalive sound played
+[19:19:29] Keepalive sound played
+[19:21:32] Keepalive sound played
+[19:23:34] Keepalive sound played
+[19:25:36] Keepalive sound played
+[19:27:37] Keepalive sound played
+[19:29:39] Keepalive sound played
+[19:31:40] Keepalive sound played
+[19:33:44] Keepalive sound played
+[19:35:46] Keepalive sound played
+[19:37:47] Keepalive sound played
+[19:39:49] Keepalive sound played
+[19:41:54] Keepalive sound played
+[19:43:56] Keepalive sound played
+[19:45:58] Keepalive sound played
+[19:48:01] Keepalive sound played
+[19:50:02] Keepalive sound played
+[19:52:04] Keepalive sound played
+[19:54:05] Keepalive sound played
+[19:56:07] Keepalive sound played
+[19:58:09] Keepalive sound played
+[20:00:11] Keepalive sound played
+[20:02:12] Keepalive sound played
+[20:04:14] Keepalive sound played
+[20:06:16] Keepalive sound played
+[20:08:18] Keepalive sound played
+[20:10:19] Keepalive sound played
+[20:12:21] Keepalive sound played
+[20:14:23] Keepalive sound played
+[20:16:25] Keepalive sound played
+[20:18:27] Keepalive sound played
+[20:20:30] Keepalive sound played
+[20:22:32] Keepalive sound played
+[20:24:33] Keepalive sound played
+[20:26:35] Keepalive sound played
+[20:28:37] Keepalive sound played
+[20:30:39] Keepalive sound played
+[20:32:41] Keepalive sound played
+[20:34:43] Keepalive sound played
+[20:36:44] Keepalive sound played
+[20:38:46] Keepalive sound played
+[20:40:52] Keepalive sound played
+[20:42:54] Keepalive sound played
+[20:44:56] Keepalive sound played
+[20:46:58] Keepalive sound played
+[20:49:00] Keepalive sound played
+[20:51:02] Keepalive sound played
+[20:53:04] Keepalive sound played
+[20:55:06] Keepalive sound played
+[20:57:08] Keepalive sound played
+[20:59:10] Keepalive sound played
+[21:01:12] Keepalive sound played
+[21:03:14] Keepalive sound played
+[21:05:15] Keepalive sound played
+[21:07:17] Keepalive sound played
+[21:09:18] Keepalive sound played
+[21:11:20] Keepalive sound played
+[21:13:21] Keepalive sound played
+[21:15:23] Keepalive sound played
+[21:17:24] Keepalive sound played
+[21:19:26] Keepalive sound played
+[21:21:27] Keepalive sound played
+[21:23:29] Keepalive sound played
+[21:25:30] Keepalive sound played
+[21:27:32] Keepalive sound played
+[21:29:35] Keepalive sound played
+[21:31:39] Keepalive sound played
+[21:33:41] Keepalive sound played
+[21:35:43] Keepalive sound played
+[21:37:46] Keepalive sound played
+[21:39:48] Keepalive sound played
+[21:41:49] Keepalive sound played
+[21:43:51] Keepalive sound played
+[21:45:53] Keepalive sound played
+[21:47:55] Keepalive sound played
+[21:49:58] Keepalive sound played
+[21:51:59] Keepalive sound played
+[21:54:01] Keepalive sound played
+[21:56:03] Keepalive sound played
+[21:58:08] Keepalive sound played
+[22:00:10] Keepalive sound played
+[22:02:14] Keepalive sound played
+[22:04:17] Keepalive sound played
+[22:06:20] Keepalive sound played
+[22:08:22] Keepalive sound played
+[22:10:24] Keepalive sound played
+[22:12:26] Keepalive sound played
+[22:14:29] Keepalive sound played
+[22:16:31] Keepalive sound played
+[22:18:33] Keepalive sound played
+[22:20:36] Keepalive sound played
+[22:22:40] Keepalive sound played
+[22:24:43] Keepalive sound played
+[22:26:45] Keepalive sound played
+[22:28:47] Keepalive sound played
+[22:30:51] Keepalive sound played
+[22:32:54] Keepalive sound played
+[22:34:55] Keepalive sound played
+[22:36:57] Keepalive sound played
+[22:38:58] Keepalive sound played
+[22:41:00] Keepalive sound played
+[22:43:02] Keepalive sound played
+[22:45:03] Keepalive sound played
+[22:47:06] Keepalive sound played
+[22:49:07] Keepalive sound played
+[22:51:09] Keepalive sound played
+[22:53:10] Keepalive sound played
+[22:55:12] Keepalive sound played
+[22:57:14] Keepalive sound played
+[22:59:16] Keepalive sound played
+[23:01:20] Keepalive sound played
+[23:03:24] Keepalive sound played
+[23:05:26] Keepalive sound played
+[23:07:28] Keepalive sound played
+[23:09:30] Keepalive sound played
+[23:11:31] Keepalive sound played
+[23:13:34] Keepalive sound played
+[23:15:36] Keepalive sound played
+[23:17:38] Keepalive sound played
+[23:19:42] Keepalive sound played
+[23:21:45] Keepalive sound played
+[23:23:47] Keepalive sound played
+[23:25:49] Keepalive sound played
+[23:27:54] Keepalive sound played
+[23:29:56] Keepalive sound played
+[23:32:01] Keepalive sound played
+[23:34:04] Keepalive sound played
+[23:36:07] Keepalive sound played
+[23:38:08] Keepalive sound played
+[23:40:10] Keepalive sound played
+[23:42:12] Keepalive sound played
+[23:44:14] Keepalive sound played
+[23:46:18] Keepalive sound played
+[23:48:20] Keepalive sound played
+[23:50:23] Keepalive sound played
+[23:52:25] Keepalive sound played
+[23:54:28] Keepalive sound played
+[23:56:31] Keepalive sound played
+[23:58:33] Keepalive sound played
+[00:00:36] Keepalive sound played
+[00:02:39] Keepalive sound played
+[00:04:40] Keepalive sound played
+[00:06:45] Keepalive sound played
+[00:08:47] Keepalive sound played
+[00:10:50] Keepalive sound played
+[00:12:52] Keepalive sound played
+[00:14:54] Keepalive sound played
+[00:16:56] Keepalive sound played
+[00:18:58] Keepalive sound played
+[00:21:00] Keepalive sound played
+[00:23:03] Keepalive sound played
+[00:25:05] Keepalive sound played
+[00:27:08] Keepalive sound played
+[00:29:11] Keepalive sound played
+[00:31:12] Keepalive sound played
+[00:33:15] Keepalive sound played
+[00:35:17] Keepalive sound played
+[00:37:19] Keepalive sound played
+[00:39:20] Keepalive sound played
+[00:41:22] Keepalive sound played
+[00:43:25] Keepalive sound played
+[00:45:29] Keepalive sound played
+[00:47:31] Keepalive sound played
+[00:49:35] Keepalive sound played
+[00:51:36] Keepalive sound played
+[00:53:40] Keepalive sound played
+[00:55:41] Keepalive sound played
+[00:57:43] Keepalive sound played
+[00:59:45] Keepalive sound played
+[01:01:48] Keepalive sound played
+[01:03:50] Keepalive sound played
+[01:05:52] Keepalive sound played
+[01:07:55] Keepalive sound played
+[01:09:57] Keepalive sound played
+[01:11:59] Keepalive sound played
+[01:14:02] Keepalive sound played
+[01:16:03] Keepalive sound played
+[01:18:05] Keepalive sound played
+[01:20:08] Keepalive sound played
+[01:22:11] Keepalive sound played
+[01:24:14] Keepalive sound played
+[01:26:16] Keepalive sound played
+[01:28:17] Keepalive sound played
+[01:30:19] Keepalive sound played
+[01:32:21] Keepalive sound played
+[01:34:23] Keepalive sound played
+[01:36:25] Keepalive sound played
+[01:38:29] Keepalive sound played
+[01:40:33] Keepalive sound played
+[01:42:35] Keepalive sound played
+[01:44:36] Keepalive sound played
+[01:46:39] Keepalive sound played
+[01:48:42] Keepalive sound played
+[01:50:44] Keepalive sound played
+[01:52:47] Keepalive sound played
+[01:54:52] Keepalive sound played
+[01:56:55] Keepalive sound played
+[01:59:03] Keepalive sound played
+[02:01:06] Keepalive sound played
+[02:03:08] Keepalive sound played
+[02:05:11] Keepalive sound played
+[02:07:13] Keepalive sound played
+[02:09:16] Keepalive sound played
+[02:11:19] Keepalive sound played
+[02:13:21] Keepalive sound played
+[02:15:24] Keepalive sound played
+[02:17:27] Keepalive sound played
+[02:19:29] Keepalive sound played
+[02:21:32] Keepalive sound played
+[02:23:34] Keepalive sound played
+[02:25:37] Keepalive sound played
+[02:27:40] Keepalive sound played
+[02:29:42] Keepalive sound played
+[02:31:45] Keepalive sound played
+[02:33:48] Keepalive sound played
+[02:35:50] Keepalive sound played
+[02:37:53] Keepalive sound played
+[02:39:55] Keepalive sound played
+[02:41:58] Keepalive sound played
+[02:44:01] Keepalive sound played
+[02:46:03] Keepalive sound played * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+/home/arnarob23/RU_RACING/dingdong/big-red-button/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [16/Dec/2025 12:45:48] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+10.100.25.40 - - [16/Dec/2025 12:45:49] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+10.100.25.40 - - [16/Dec/2025 12:46:15] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+10.100.25.65 - - [16/Dec/2025 13:36:42] "GET / HTTP/1.1" 200 -
+10.100.25.65 - - [16/Dec/2025 13:36:42] "[36mGET /static/icons/apple-touch-icon.png HTTP/1.1[0m" 304 -
+10.100.25.65 - - [16/Dec/2025 13:36:42] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+/home/arnarob23/RU_RACING/dingdong/big-red-button/app.py:189: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+
+Playing MPEG stream from dingdong.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:04] Decoding of dingdong.mp3 finished.
+10.100.25.65 - - [16/Dec/2025 13:36:49] "POST /ding HTTP/1.1" 200 -
+10.100.24.10 - - [16/Dec/2025 14:51:30] "GET / HTTP/1.1" 200 -
+/home/arnarob23/RU_RACING/dingdong/big-red-button/app.py:189: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+
+Playing MPEG stream from letmein.mp3 ...
+MPEG 1.0 layer III, 192 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:02] Decoding of letmein.mp3 finished.
+10.100.24.10 - - [16/Dec/2025 14:51:34] "POST /ding HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+/home/arnarob23/RU_RACING/dingdong/big-red-button/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [16/Dec/2025 18:24:28] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+10.100.25.40 - - [16/Dec/2025 19:44:46] "GET / HTTP/1.1" 200 -
+/home/arnarob23/RU_RACING/dingdong/app.py:189: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+
+Playing MPEG stream from dingdong.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:04] Decoding of dingdong.mp3 finished.
+10.100.25.40 - - [16/Dec/2025 19:44:54] "POST /ding HTTP/1.1" 200 -
+/home/arnarob23/RU_RACING/dingdong/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [16/Dec/2025 19:45:00] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [16/Dec/2025 19:45:03] "[33mGET /admin HTTP/1.1[0m" 404 -
+10.100.25.40 - - [16/Dec/2025 19:45:06] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [16/Dec/2025 19:45:08] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+/home/arnarob23/RU_RACING/dingdong/app.py:106: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  BLOCKED_IPS[target_ip] = datetime.utcnow() + timedelta(minutes=minutes)
+10.100.25.40 - - [16/Dec/2025 19:45:11] "POST /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [16/Dec/2025 19:45:17] "POST /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [16/Dec/2025 19:45:19] "POST /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [16/Dec/2025 19:45:20] "POST /admin/logs HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+10.100.25.40 - - [16/Dec/2025 19:48:28] "GET / HTTP/1.1" 200 -
+/home/arnarob23/RU_RACING/dingdong/app.py:189: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Playing MPEG stream from dingdong.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+Can't find a suitable libao driver. (Is device in use?)
+10.100.25.40 - - [16/Dec/2025 19:48:29] "POST /ding HTTP/1.1" 200 -
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Playing MPEG stream from dingdong.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+Can't find a suitable libao driver. (Is device in use?)
+10.100.25.40 - - [16/Dec/2025 19:48:43] "POST /ding HTTP/1.1" 200 -
+10.100.25.40 - - [16/Dec/2025 19:48:44] "[31m[1mPOST /ding HTTP/1.1[0m" 429 -
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Playing MPEG stream from letmein.mp3 ...
+MPEG 1.0 layer III, 192 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+Can't find a suitable libao driver. (Is device in use?)
+10.100.25.40 - - [16/Dec/2025 19:48:46] "POST /ding HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/home/arnarob23/RU_RACING/dingdong/app.py", line 12, in <module>
+    from flask import Flask, request, jsonify, make_response, render_template, send_from_directory
+ModuleNotFoundError: No module named 'flask'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+/home/arnarob23/RU_RACING/dingdong/app.py:189: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+
+Playing MPEG stream from dingdong.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:04] Decoding of dingdong.mp3 finished.
+10.100.25.40 - - [16/Dec/2025 21:55:59] "POST /ding HTTP/1.1" 200 -
+/home/arnarob23/RU_RACING/dingdong/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [16/Dec/2025 21:56:06] "GET /admin/logs HTTP/1.1" 200 -
+10.100.25.40 - - [16/Dec/2025 21:56:09] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+/home/arnarob23/RU_RACING/dingdong/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [16/Dec/2025 22:04:20] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+[21:57:42] Keepalive sound played
+[21:59:43] Keepalive sound played
+[22:01:45] Keepalive sound played
+[22:03:47] Keepalive sound played
+[22:05:49] Keepalive sound played
+[22:07:50] Keepalive sound played
+[22:09:52] Keepalive sound played
+[22:11:54] Keepalive sound played
+[22:13:56] Keepalive sound played
+[22:15:58] Keepalive sound played
+[22:17:59] Keepalive sound played
+[22:20:01] Keepalive sound played
+[22:22:04] Keepalive sound played
+[22:24:05] Keepalive sound played
+[22:26:07] Keepalive sound played
+[22:28:09] Keepalive sound played
+[22:30:11] Keepalive sound played
+[22:32:13] Keepalive sound played
+[22:34:15] Keepalive sound played
+[22:36:17] Keepalive sound played
+[22:38:19] Keepalive sound played
+[22:40:21] Keepalive sound played
+[22:42:22] Keepalive sound played
+[22:44:24] Keepalive sound played
+[22:46:25] Keepalive sound played
+[22:48:28] Keepalive sound played
+[22:50:30] Keepalive sound played
+[22:52:32] Keepalive sound played
+[22:54:33] Keepalive sound played
+[22:56:35] Keepalive sound played
+[22:58:38] Keepalive sound played
+[23:00:42] Keepalive sound played
+[23:02:44] Keepalive sound played
+[23:04:45] Keepalive sound played
+[23:06:47] Keepalive sound played
+[23:08:48] Keepalive sound played
+[23:10:51] Keepalive sound played
+[23:12:53] Keepalive sound played
+[23:14:55] Keepalive sound played
+[23:16:56] Keepalive sound played
+[23:18:58] Keepalive sound played
+[23:21:01] Keepalive sound played
+[23:23:03] Keepalive sound played
+[23:25:06] Keepalive sound played
+[23:27:08] Keepalive sound played
+[23:29:10] Keepalive sound played
+[23:31:12] Keepalive sound played
+[23:33:14] Keepalive sound played
+[23:35:16] Keepalive sound played
+[23:37:18] Keepalive sound played
+[23:39:19] Keepalive sound played
+[23:41:21] Keepalive sound played
+[23:43:23] Keepalive sound played
+[23:45:26] Keepalive sound played
+[23:47:28] Keepalive sound played
+[23:49:29] Keepalive sound played
+[23:51:31] Keepalive sound played
+[23:53:32] Keepalive sound played
+[23:55:34] Keepalive sound played
+[23:57:36] Keepalive sound played
+[23:59:37] Keepalive sound played
+[00:01:39] Keepalive sound played
+[00:03:41] Keepalive sound played
+[00:05:43] Keepalive sound played
+[00:07:44] Keepalive sound played
+[00:09:46] Keepalive sound played
+[00:11:48] Keepalive sound played
+[00:13:50] Keepalive sound played
+[00:15:51] Keepalive sound played
+[00:17:53] Keepalive sound played
+[00:19:54] Keepalive sound played
+[00:21:56] Keepalive sound played
+[00:23:57] Keepalive sound played
+[00:25:59] Keepalive sound played
+[00:28:01] Keepalive sound played
+[00:30:03] Keepalive sound played
+[00:32:05] Keepalive sound played
+[00:34:07] Keepalive sound played
+[00:36:08] Keepalive sound played
+[00:38:10] Keepalive sound played
+[00:40:12] Keepalive sound played
+[00:42:13] Keepalive sound played
+[00:44:16] Keepalive sound played
+[00:46:17] Keepalive sound played
+[00:48:19] Keepalive sound played
+[00:50:20] Keepalive sound played
+[00:52:22] Keepalive sound played
+[00:54:23] Keepalive sound played
+[00:56:25] Keepalive sound played
+[00:58:26] Keepalive sound played
+[01:00:28] Keepalive sound played
+[01:02:30] Keepalive sound played
+[01:04:32] Keepalive sound played
+[01:06:34] Keepalive sound played
+[01:08:37] Keepalive sound played
+[01:10:39] Keepalive sound played
+[01:12:41] Keepalive sound played
+[01:14:43] Keepalive sound played
+[01:16:45] Keepalive sound played
+[01:18:47] Keepalive sound played
+[01:20:49] Keepalive sound played
+[01:22:51] Keepalive sound played
+[01:24:53] Keepalive sound played
+[01:26:56] Keepalive sound played
+[01:28:58] Keepalive sound played
+[01:31:00] Keepalive sound played
+[01:33:02] Keepalive sound played
+[01:35:04] Keepalive sound played
+[01:37:06] Keepalive sound played
+[01:39:07] Keepalive sound played
+[01:41:10] Keepalive sound played
+[01:43:12] Keepalive sound played
+[01:45:15] Keepalive sound played
+[01:47:17] Keepalive sound played
+[01:49:19] Keepalive sound played
+[01:51:20] Keepalive sound played
+[01:53:22] Keepalive sound played
+[01:55:23] Keepalive sound played
+[01:57:25] Keepalive sound played
+[01:59:27] Keepalive sound played
+[02:01:30] Keepalive sound played
+[02:03:32] Keepalive sound played
+[02:05:33] Keepalive sound played
+[02:07:35] Keepalive sound played
+[02:09:37] Keepalive sound played
+[02:11:39] Keepalive sound played
+[02:13:41] Keepalive sound played
+[02:15:43] Keepalive sound played
+[02:17:45] Keepalive sound played
+[02:19:46] Keepalive sound played
+[02:21:48] Keepalive sound played
+[02:23:50] Keepalive sound played
+[02:25:52] Keepalive sound played
+[02:27:54] Keepalive sound played
+[02:29:56] Keepalive sound played
+[02:31:57] Keepalive sound played
+[02:33:59] Keepalive sound played
+[02:36:01] Keepalive sound played
+[02:38:03] Keepalive sound played
+[02:40:04] Keepalive sound played
+[02:42:06] Keepalive sound played
+[02:44:07] Keepalive sound played
+[02:46:09] Keepalive sound played
+[02:48:11] Keepalive sound played
+[02:50:12] Keepalive sound played
+[02:52:14] Keepalive sound played
+[02:54:15] Keepalive sound played
+[02:56:17] Keepalive sound played
+[02:58:19] Keepalive sound played
+[03:00:20] Keepalive sound played
+[03:02:22] Keepalive sound played
+[03:04:23] Keepalive sound played
+[03:06:25] Keepalive sound played
+[03:08:26] Keepalive sound played
+[03:10:28] Keepalive sound played
+[03:12:30] Keepalive sound played
+[03:14:32] Keepalive sound played
+[03:16:34] Keepalive sound played
+[03:18:35] Keepalive sound played
+[03:20:37] Keepalive sound played
+[03:22:39] Keepalive sound played
+[03:24:41] Keepalive sound played
+[03:26:43] Keepalive sound played
+[03:28:46] Keepalive sound played
+[03:30:47] Keepalive sound played
+[03:32:49] Keepalive sound played
+[03:34:51] Keepalive sound played
+[03:36:53] Keepalive sound played
+[03:38:55] Keepalive sound played
+[03:40:57] Keepalive sound played
+[03:42:58] Keepalive sound played
+[03:45:01] Keepalive sound played
+[03:47:02] Keepalive sound played
+[03:49:04] Keepalive sound played
+[03:51:05] Keepalive sound played
+[03:53:07] Keepalive sound played
+[03:55:09] Keepalive sound played
+[03:57:11] Keepalive sound played
+[03:59:13] Keepalive sound played
+[04:01:15] Keepalive sound played
+[04:03:17] Keepalive sound played
+[04:05:18] Keepalive sound played
+[04:07:20] Keepalive sound played
+[04:09:21] Keepalive sound played
+[04:11:23] Keepalive sound played
+[04:13:24] Keepalive sound played
+[04:15:26] Keepalive sound played
+[04:17:28] Keepalive sound played
+[04:19:29] Keepalive sound played
+[04:21:31] Keepalive sound played
+[04:23:33] Keepalive sound played
+[04:25:35] Keepalive sound played
+[04:27:45] Keepalive sound played
+[04:29:47] Keepalive sound played
+[04:31:49] Keepalive sound played
+[04:33:50] Keepalive sound played
+[04:35:52] Keepalive sound played
+[04:37:55] Keepalive sound played
+[04:39:56] Keepalive sound played
+[04:41:59] Keepalive sound played
+[04:44:00] Keepalive sound played
+[04:46:02] Keepalive sound played
+[04:48:05] Keepalive sound played
+[04:50:07] Keepalive sound played
+[04:52:08] Keepalive sound played
+[04:54:10] Keepalive sound played
+[04:56:13] Keepalive sound played
+[04:58:15] Keepalive sound played
+[05:00:16] Keepalive sound played
+[05:02:18] Keepalive sound played
+[05:04:20] Keepalive sound played
+[05:06:23] Keepalive sound played
+[05:08:25] Keepalive sound played
+[05:10:27] Keepalive sound played
+[05:12:28] Keepalive sound played
+[05:14:30] Keepalive sound played
+[05:16:32] Keepalive sound played
+[05:18:33] Keepalive sound played
+[05:20:35] Keepalive sound played
+[05:22:37] Keepalive sound played
+[05:24:39] Keepalive sound played
+[05:26:40] Keepalive sound played
+[05:28:42] Keepalive sound played
+[05:30:45] Keepalive sound played
+[05:32:47] Keepalive sound played
+[05:34:49] Keepalive sound played
+[05:36:51] Keepalive sound played
+[05:38:53] Keepalive sound played
+[05:40:54] Keepalive sound played
+[05:42:56] Keepalive sound played
+[05:44:57] Keepalive sound played
+[05:46:59] Keepalive sound played
+[05:49:02] Keepalive sound played
+[05:51:04] Keepalive sound played
+[05:53:06] Keepalive sound played
+[05:55:08] Keepalive sound played
+[05:57:09] Keepalive sound played
+[05:59:12] Keepalive sound played
+[06:01:14] Keepalive sound played
+[06:03:16] Keepalive sound played
+[06:05:20] Keepalive sound played * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+10.100.25.40 - - [17/Dec/2025 14:38:43] "GET / HTTP/1.1" 200 -
+/home/arnarob23/RU_RACING/dingdong/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [17/Dec/2025 14:39:04] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+/home/arnarob23/RU_RACING/dingdong/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [17/Dec/2025 14:39:17] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+/home/arnarob23/RU_RACING/dingdong/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [17/Dec/2025 16:47:49] "POST /admin/logs HTTP/1.1" 200 -
+tcgetattr(): Inappropriate ioctl for device
+/home/arnarob23/RU_RACING/dingdong/app.py:137: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+10.100.25.40 - - [17/Dec/2025 17:26:31] "GET /admin/logs HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.7.6:8000
+[33mPress CTRL+C to quit[0m

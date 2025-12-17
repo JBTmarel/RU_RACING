@@ -243,7 +243,6 @@ def generate_keepalive_wav(filename="keepalive.wav"):
 
 def start_keepalive_loop():
     """Plays the keepalive sound every 8 minutes in a background thread."""
-    print("got into keepalive loop")
     def loop():
         wav_path = os.path.join(str(pathlib.Path(__file__).parent.absolute()), "keepalive.wav")
         # Ensure the file exists
@@ -263,7 +262,6 @@ def start_keepalive_loop():
 #                print("Keepalive sound playing in", countdown-i, "seconds")
             try:
                 # Use aplay (ALSA player) which is standard on Raspberry Pi
-                print("Got into try")
                 with _audio_lock:
                     subprocess.run(["aplay", wav_path], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
                     now = datetime.now()

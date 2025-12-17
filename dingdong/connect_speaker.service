@@ -1,0 +1,10 @@
+[Unit]
+Description=Connect to JBL GO Essential speaker
+After=network-online.target
+
+[Service]
+ExecStart=/home/arnarob23/RU_RACING/dingdong/big-red-button/connect_speaker.sh
+WorkingDirectory=/home/arnarob23/RU_RACING/dingdong/big-red-button
+
+[Install]
+WantedBy=multi-user.target
