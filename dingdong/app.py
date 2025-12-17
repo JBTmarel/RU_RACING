@@ -243,9 +243,7 @@ def generate_keepalive_wav(filename="keepalive.wav"):
 
 def start_keepalive_loop():
     """Plays the keepalive sound every 8 minutes in a background thread."""
-    print("Got into keepalive")
     def loop():
-        print("Got into loop")
         wav_path = os.path.join(str(pathlib.Path(__file__).parent.absolute()), "keepalive.wav")
         # Ensure the file exists
         if not os.path.exists(wav_path):
@@ -255,15 +253,13 @@ def start_keepalive_loop():
             except Exception as e:
                 print(f"Failed to generate keepalive wav: {e}")
                 return
-        sleepTime = 10
+        sleepTime = 120
         countdown = 3
         while True:
-            print("Got into while loop123123123")
-            time.sleep(sleepTime)#-countdown)
-            print("Sleep done")
-#            for i in range(countdown):
-#                time.sleep(1)
-#                print("Keepalive sound playing in", countdown-i, "seconds")
+             time.sleep(sleepTime-countdown)
+           for i in range(countdown):
+               time.sleep(1)
+               print("Keepalive sound playing in", countdown-i, "seconds")
             try:
                 # Use aplay (ALSA player) which is standard on Raspberry Pi
                 print("Got into try")
@@ -274,7 +270,6 @@ def start_keepalive_loop():
                     print(now_f, "Keepalive sound played")
             except Exception as e:
                 print(f"Error playing keepalive sound: {e}")
-            print("try and except done")
 
     thread = threading.Thread(target=loop, daemon=True)
     thread.start()
