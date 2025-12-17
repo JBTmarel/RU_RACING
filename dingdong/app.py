@@ -256,8 +256,8 @@ def start_keepalive_loop():
         sleepTime = 120
         countdown = 3
         while True:
-             time.sleep(sleepTime-countdown)
-           for i in range(countdown):
+            time.sleep(sleepTime-countdown)
+            for i in range(countdown):
                time.sleep(1)
                print("Keepalive sound playing in", countdown-i, "seconds")
             try:
