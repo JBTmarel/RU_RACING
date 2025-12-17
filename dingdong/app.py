@@ -255,7 +255,7 @@ def start_keepalive_loop():
             except Exception as e:
                 print(f"Failed to generate keepalive wav: {e}")
                 return
-        sleepTime = 120
+        sleepTime = 10
         countdown = 3
         while True:
             print("Got into while loop")
