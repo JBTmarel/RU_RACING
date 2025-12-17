@@ -262,6 +262,7 @@ def start_keepalive_loop():
 #                print("Keepalive sound playing in", countdown-i, "seconds")
             try:
                 # Use aplay (ALSA player) which is standard on Raspberry Pi
+                print("Got into try")
                 with _audio_lock:
                     subprocess.run(["aplay", wav_path], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
                     now = datetime.now()
